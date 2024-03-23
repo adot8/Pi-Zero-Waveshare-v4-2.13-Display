@@ -7,4 +7,4 @@ Select Interfacing options -> SPI -> On
 
 `sudo pip3 install -r requirements`
 
-`sudo python3 display.py`
+`sudo python3 main/display.py`
