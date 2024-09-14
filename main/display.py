@@ -48,22 +48,90 @@ try:
               
             logging.info("E-paper refresh")
             logging.info("2.read bmp file...")
-            image = Image.open(os.path.join(picdir, 'skull.bmp'))
+            image = Image.open(os.path.join(picdir, 'mummy.bmp'))
             epd.display(epd.getbuffer(image))
-            time.sleep(5)
+            time.sleep(60)
             
             logging.info("E-paper refresh")
             logging.info("2.read bmp file...")
             image = Image.open(os.path.join(picdir, 'hands.bmp'))
             epd.display(epd.getbuffer(image))
-            time.sleep(5)
+            time.sleep(60)
+            
+            logging.info("E-paper refresh")
+            logging.info("2.read bmp file...")
+            image = Image.open(os.path.join(picdir, 'reaper.bmp'))
+            epd.display(epd.getbuffer(image))
+            time.sleep(60)
+            
+            logging.info("E-paper refresh")
+            logging.info("2.read bmp file...")
+            image = Image.open(os.path.join(picdir, 'droop.bmp'))
+            epd.display(epd.getbuffer(image))
+            time.sleep(60)
+            
+            logging.info("E-paper refresh")
+            logging.info("2.read bmp file...")
+            image = Image.open(os.path.join(picdir, 'finger.bmp'))
+            epd.display(epd.getbuffer(image))
+            time.sleep(60)
+            
+            logging.info("E-paper refresh")
+            logging.info("2.read bmp file...")
+            image = Image.open(os.path.join(picdir, 'axe.bmp'))
+            epd.display(epd.getbuffer(image))
+            time.sleep(60)
             
             logging.info("E-paper refresh")
             logging.info("2.read bmp file...")
             image = Image.open(os.path.join(picdir, 'sad.bmp'))
             epd.display(epd.getbuffer(image))
-            time.sleep(5)
+            time.sleep(60)
              
+            logging.info("E-paper refresh")
+            logging.info("2.read bmp file...")
+            image = Image.open(os.path.join(picdir, 'finger.bmp'))
+            epd.display(epd.getbuffer(image))
+            time.sleep(60)
+            
+            logging.info("E-paper refresh")
+            logging.info("2.read bmp file...")
+            image = Image.open(os.path.join(picdir, 'prompt.bmp'))
+            epd.display(epd.getbuffer(image))
+            time.sleep(60)
+            
+            logging.info("E-paper refresh")
+            logging.info("2.read bmp file...")
+            image = Image.open(os.path.join(picdir, 'skull.bmp'))
+            epd.display(epd.getbuffer(image))
+            time.sleep(1.5)
+            
+            logging.info("E-paper refresh")
+            logging.info("2.read bmp file...")
+            image = Image.open(os.path.join(picdir, 'skullwhite.bmp'))
+            epd.display(epd.getbuffer(image))
+            time.sleep(1.5)
+            
+            logging.info("E-paper refresh")
+            logging.info("2.read bmp file...")
+            image = Image.open(os.path.join(picdir, 'skull.bmp'))
+            epd.display(epd.getbuffer(image))
+            time.sleep(1.5)
+            
+            logging.info("E-paper refresh")
+            logging.info("2.read bmp file...")
+            image = Image.open(os.path.join(picdir, 'skullwhite.bmp'))
+            epd.display(epd.getbuffer(image))
+            time.sleep(1.5)
+            
+            logging.info("E-paper refresh")
+            logging.info("2.read bmp file...")
+            image = Image.open(os.path.join(picdir, 'skull.bmp'))
+            epd.display(epd.getbuffer(image))
+            time.sleep(60)
+            
+            
+            
 
         except KeyboardInterrupt:
             logging.info("Ctrl+C pressed. Exiting...")
